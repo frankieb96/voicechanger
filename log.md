@@ -59,3 +59,9 @@ Yahoo! Ok, I have found an example to reroute i/o in pyo. Furthermore,
 official documentation discourages using both pyo and pyaudio.
 I have decided to use pyo from begin to end. Don't know if it will
 work with Discord, but it doesn't matter right now.
+
+Furthermore, it exists a set of API for Discord: **discordpy**
+> https://discordpy.readthedocs.io/en/latest/index.html
+
+I think I'm ready to experiment with the first task: playing with
+pyo to obtain a radio-like output.
