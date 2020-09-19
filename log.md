@@ -2,6 +2,7 @@
 Which is basically little more than a rant when I am unable to accomplish
 anything.
 
+
 ### 16/09/2020, 22:28
 New project! This is my first, non-uni-related, just-for-fun project :D
 
@@ -12,6 +13,7 @@ allow me to understand
 
 Every projects starts by collecting the necessary information. 
 I will do it tomorrow.
+
 
 ### 17/09/2020, 17:17
 Now, I have already worked with audio signals, but I never developed a
@@ -40,3 +42,20 @@ this has an example of direct input-to-output streams.
 Also this one seems to introduce a lot of distortion. I need to try it
 with an headset, or to cope with it with some filter. I'll think about
 it tomorrow.
+
+
+### 19/09/2020, 09:46
+I've been experimenting all the morning. Now, audiolazy has a very
+uncomfortable lack of proper documentation, so, being this an amateur
+project, I think I'll discard it. Besides, i/o wiring has the same
+problems as the pyaudio one. 
+I'll stick with it for I/O.
+On the other hand, pyaudio does not include signal processing tools,
+so I hope to find a workaround with pyo.
+I haven't check any other libraries in other programming languages,
+but now I'm fairly sure this would be better done in C/C++.
+
+Yahoo! Ok, I have found an example to reroute i/o in pyo. Furthermore,
+official documentation discourages using both pyo and pyaudio.
+I have decided to use pyo from begin to end. Don't know if it will
+work with Discord, but it doesn't matter right now.
