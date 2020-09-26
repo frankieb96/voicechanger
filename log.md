@@ -65,3 +65,18 @@ Furthermore, it exists a set of API for Discord: **discordpy**
 
 I think I'm ready to experiment with the first task: playing with
 pyo to obtain a radio-like output.
+
+
+### 24/09/2020, 10:11
+Good news. I finally found a more in-depth tutorial here
+> https://www.youtube.com/watch?v=ko9hRYx1lF4
+
+The guy uses Audacity. For the moment, I just want to see how it
+is done, then I can play with zero-poles or coefficients.
+I will record here some quick useful infos.
+
+ - pass-band filter between 300 and 7000 Hz
+ - emphasize a little bit more the higher frequency, and add
+    distortion with spikes there
+
+This creates a more metallic voice. I'll test it immediately.
